@@ -23,12 +23,6 @@ g++ -o blockchain.exe main.cpp
 blockchain.exe
 ```
 
-### Linux/macOS
-```bash
-g++ -o blockchain main.cpp
-./blockchain
-```
-
 ## Usage
 
 1. Run the program
