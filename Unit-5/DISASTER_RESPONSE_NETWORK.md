@@ -106,14 +106,6 @@ to it has been considered and the recorded predecessor chain gives the
 minimum-distance route. This works only because all road weights are positive,
 and therefore nonnegative.
 
-## Complexity
-
-Let `V` be the number of locations and `E` be the number of roads.
-
-- DFS: `O(V + E)` time and `O(V)` auxiliary space for the stack and visited
-  set.
-- Dijkstra's algorithm with a binary min-priority queue: `O((V + E) log V)`
-  time and `O(V)` auxiliary space for distances and predecessors.
 
 ## Worked Example
 
